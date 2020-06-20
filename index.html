@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <title>screen Хвостик</title>
+    <style type="text/css">
+      body {
+        font-family: 'Jost', sans-serif;
+      }
+      .formblock {
+        width: 375px;
+        height: 812px;
+        background-color: #F4F5F9;
+        box-sizing: border-box;
+      }
+      button {
+      }
+      .btn-main {
+        position: absolute;
+        top: 716px;
+        left: 25px;
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        border-radius: 14px;
+        font-weight: 500;
+        border: 0px;
+        box-shadow: 0px 1px 6px rgba(35, 52, 208, 0.2);
+        width: 325px;
+        height: 50px;
+        color: #FFFFFF;
+        background-color: #A1A1EB;
+      }
+      .field-btn-a {
+        position: absolute;
+        width: 325px;
+        height: 80px;
+        left: 25px;
+        top: 331px;
+      }
+      .btn-a {
+        width: 325px;
+        height: 50px;
+        border: 0px;
+        border-radius: 14px;
+        padding: 12px 39px 13px;
+        box-sizing: border-box;
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #A1A1EB;
+        background-color: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(35, 52, 208, 0.2);
+      }
+      h1 {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 23px;
+        text-align: center;
+        color: #A1A1EB;
+      }
+      h2 {
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #4E4E4E;
+        position: absolute;
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #4E4E4E;
+        margin-bottom: 11px;
+        margin-top: 0;
+      }
+      .field-select {
+        position: absolute;
+        width: 325px;
+        height: 81px;
+        top: 238px;
+        left: 25px;
+      }
+      select {
+        width: 325px;
+        height: 50.63px;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #A1A1EB;
+        border: 0;
+        padding: 12px 39px 13px;
+      }
+      .field-input {
+        position: absolute;
+        width: 325px;
+        height: 87px;
+        top: 424px;
+        left: 25px;
+      }
+      input[type=phone] {
+        width: 325px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #AFAFAF;
+        border: 0;
+      }
+      .field-comment {
+        position: absolute;
+        width: 325px;
+        height: 140px;
+        left: 25px;
+        top: 528px;
+      }
+      input[type=text] {
+        width: 320px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #AFAFAF;
+        border: 0;
+      }
+      .block {
+        width: 325px;
+        height: 110.58px;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="formblock">
+      <img style="position: absolute; top: 54px; left: 22px;width: 24px; height: 24px;" class="img-1" src="Arrow left.png" alt="">
+      <h1 style="position: absolute; top: 54px; left: 84px;">Оформление заказа</h1>
+      <button class="btn-main" type="button" name="button">Оплатить заказ</button>
+      <h2 style="top: 157px; left: 25px;">Сумма к оплате</h2>
+      <h2 style="top: 157px; left: 265px;">2 832 ₽</h2>
+      <div class="field-select">
+        <h3>Выберите дату и время доставки</h3>
+        <img style="position: absolute; top: 49px; left: 17px;width: 12.5px; height: 12.5px;" class="img-1" src="calendar.png" alt="">
+        <select class="" name="">
+          <option value="">13 июня, сб, с 18:00 до 23:00</option>
+          <option value="">14 июня, вс, с 18:00 до 23:00</option>
+          <option value="">15 июня, пн, с 18:00 до 23:00</option>
+          <option value="">16 июня, вт, с 18:00 до 23:00</option>
+          <option value="">17 июня, ср, с 18:00 до 23:00</option>
+          <option value="">18 июня, вс, с 18:00 до 23:00</option>
+        </select>
+      </div>
+      <div class="field-btn-a">
+        <h3>Адрес доставки</h3>
+        <button class="btn-a"type="button" name="button">Полянка Б. ул, 43 стр2</button>
+        <img style="position: absolute; top: 49px; left: 20px;width: 8.4px; height: 12px;" class="img-1" src="vector.png" alt="">
+      </div>
+      <div class="field-input">
+        <h3>Номер телефона</h3>
+        <input type="phone" name="" value="  +7">
+      </div>
+      <div class="field-comment">
+        <h3>Комментарии к заказу</h3>
+        <div class="block">
+          <input type="text" name="" value="  |" cols="10">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
